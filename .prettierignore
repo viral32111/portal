@@ -1,0 +1,6 @@
+# Documentation
+*.md
+
+# Configuration Files
+*.json
+*.config.ts
