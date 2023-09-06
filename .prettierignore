@@ -4,3 +4,6 @@
 # Configuration Files
 *.json
 *.config.ts
+
+# GitHub
+.github/
