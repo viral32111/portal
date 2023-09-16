@@ -1,10 +1,14 @@
 {
+	"root": true,
 	"extends": [
-		"next/core-web-vitals",
+		"eslint:recommended",
+		"plugin:@typescript-eslint/recommended",
 		"prettier",
-		"plugin:prettier/recommended"
+		"plugin:prettier/recommended",
+		"next/core-web-vitals"
 	],
 	"plugins": [
+		"@typescript-eslint",
 		"prettier"
 	],
 	"rules": {
@@ -12,6 +16,14 @@
 		"linebreak-style": [ "error", "unix" ],
 		"quotes": [ "error", "double" ],
 		"semi": [ "error", "never" ],
-		"prettier/prettier": "error"
-	}
+		"prettier/prettier": "error",
+		"@typescript-eslint/no-explicit-any": "warn",
+		"@typescript-eslint/no-unused-vars": "warn",
+		"@typescript-eslint/ban-ts-comment": "warn"
+	},
+	"ignorePatterns": [
+		"node_modules/",
+		"craft/",
+		"docker/"
+	]
 }

@@ -1,9 +1,34 @@
-# Documentation
-*.md
+# Dependencies
+node_modules/
+*.lock
 
-# Configuration Files
-*.json
-*.config.ts
+# Builds
+build/
+*.tsbuildinfo
+
+# Next.js
+.next/
+out/
 
 # GitHub
 .github/
+
+# Visual Studio Code
+.vscode/
+
+# Craft CMS
+craft/
+
+# Docker
+docker/
+
+# Documentation
+*.md
+
+# Package Configuration
+*.json
+*.config.js
+*.config.ts
+
+# Environment Variables
+.env*
