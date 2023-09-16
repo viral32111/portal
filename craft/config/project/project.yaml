@@ -1,0 +1,57 @@
+dateModified: 1694892597
+email:
+  fromEmail: contact@viral32111.com
+  fromName: Portal
+  replyToEmail: null
+  template: null
+  transportSettings:
+    host: $SMTP_HOSTNAME
+    password: $SMTP_USER_PASSWORD
+    port: $SMTP_PORT
+    useAuthentication: $SMTP_USE_AUTH
+    username: $SMTP_USER_NAME
+  transportType: craft\mail\transportadapters\Smtp
+meta:
+  __names__:
+    b204db62-49e6-45e7-9524-18f2f95a56e0: 'Public Schema' # Public Schema
+    c48fef89-ccab-4d1d-ac68-ae887a830d7e: Portal # Portal
+    cc693d28-fbd6-435d-906f-2f2d3b3e7420: Common # Common
+    eacbcc31-864a-448b-861b-0c1454026eab: Portal # Portal
+plugins:
+  codefield:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  default-dashboard:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  element-api:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+  super-table:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0
+  two-factor-authentication:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.7.2
+system:
+  edition: pro
+  live: true
+  name: Portal
+  retryDuration: null
+  schemaVersion: 4.5.3.0
+  timeZone: $CRAFT_TIMEZONE
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

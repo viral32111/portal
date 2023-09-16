@@ -1,0 +1,12 @@
+# Composer Dependencies
+vendor/
+
+# TLS certificate
+.cert/
+
+# Environment Variables
+.env*
+!.env.example*
+
+# License Key
+config/license.key*
